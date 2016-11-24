@@ -22,7 +22,7 @@ let getEnv = Environment.GetEnvironmentVariable
 
 Environment.CurrentDirectory <- __SOURCE_DIRECTORY__
 
-let targetFramework = "v4.5"
+let targetFramework = "v4.0"
 
 let context =
     let osVersion = Environment.OSVersion
