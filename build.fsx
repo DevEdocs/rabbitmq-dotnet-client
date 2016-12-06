@@ -50,7 +50,7 @@ let (</>) a b = IO.Path.Combine(a, b)
 
 let localPropsFile = "./Local.props"
 let projects =
-    [ "RabbitMQ.Client" ; "RabbitMQ.Client.WinRT" ]
+    [ "RabbitMQ.Client" ]
 let apiGenExe = "./gensrc/rabbitmq-dotnet-apigen.exe"
 let specsDir = "./docs/specs"
 let amqpSpec0_9_1BaseName = "amqp0-9-1.stripped.xml"
